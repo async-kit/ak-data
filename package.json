@@ -1,0 +1,33 @@
+{
+  "name": "ak-data",
+  "version": "0.1.0",
+  "description": "async-kit streaming JSON data toolkit",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/async-kit/ak-data.git"
+  },
+  "keywords": [
+    "data",
+    "streaming",
+    "JSON",
+    "pipeline"
+  ],
+  "author": "Jonathan M. Altman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/async-kit/ak-data/issues"
+  },
+  "homepage": "https://github.com/async-kit/ak-data#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "highland": "^2.6.0",
+    "lodash": "^4.5.1"
+  }
+}
